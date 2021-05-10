@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @IdClass(ActiveAddressKey.class)
-@Table(name = "test_active_addresses", schema = "public")
+@Table(name = "active_addresses", schema = "public")
 public class ActiveAddress {
     @Id
     @Column(name = "address")
